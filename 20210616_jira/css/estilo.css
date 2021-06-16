@@ -1,0 +1,56 @@
+@media screen and (max-width: 479px) {
+  label {
+    display: block;
+    margin: 0.5em 0 0 0;
+  }
+  .email,
+  .passwd {
+    display: inline-block;
+    width: 40%;
+  }
+  main {
+    text-align: center;
+  }
+  input {
+    margin: 3px;
+  }
+}
+@media screen and (max-width: 1023px) {
+  label {
+    display: block;
+    margin: 0.5em 0 0 0;
+  }
+  .email,
+  .passwd {
+    display: inline-block;
+    width: 40%;
+  }
+  main {
+    text-align: center;
+  }
+  input {
+    margin: 3px;
+  }
+}
+@media screen and (min-width: 1024px) {
+  label {
+    display: block;
+    margin: 0.5em 0 0 0;
+  }
+  .email,
+  .passwd {
+    display: inline-block;
+    width: 40%;
+  }
+  main {
+    text-align: center;
+  }
+  input {
+    margin: 3px;
+  }
+}
+
+input{
+  outline: none;
+  border-radius: 10em;
+}
